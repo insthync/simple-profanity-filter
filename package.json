@@ -1,8 +1,8 @@
 {
-  "name": "simple-profanity-filter",
-  "description": "A very simple profanity filter.",
-  "author": "Nick Stahlnecker",
-  "version": "0.1.3",
+  "name": "simple-profanity-filter-with-whitelist",
+  "description": "A very simple profanity filter with whitelist supports.",
+  "author": "Ittipon Teerapruettikulchai",
+  "version": "0.1.4",
   "private": false,
   "license": "MIT",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stahlneckr/simple-profanity-filter.git"
+    "url": "https://github.com/insthync/simple-profanity-filter-with-whitelist.git"
   },
   "keywords": [
     "profanity",
