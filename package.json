@@ -2,7 +2,7 @@
   "name": "simple-profanity-filter-with-whitelist",
   "description": "A very simple profanity filter with whitelist supports.",
   "author": "Ittipon Teerapruettikulchai",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "license": "MIT",
   "directories": {
