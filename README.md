@@ -32,4 +32,10 @@ profanityFilter.replaceWords(["custom", "bad", "words"]);
 profanityFilter.addWhitelist(["Notbadwords"]);
 var filtered_string = profanityFilter.filter("Some custom bad words and Notbadwords, bitch!");
 console.log(filtered_string); // "Some ****** *** ***** and Notbadwords, bitch!"
+
+// has bad words
+profanityFilter.replaceWords(["custom", "bad", "words"]);
+profanityFilter.addWhitelist(["Notbadwords"]);
+var has_bad_words = profanityFilter.hasBadWords("Some Notbadwords, bitch!");
+console.log(has_bad_words); // false
 ```
